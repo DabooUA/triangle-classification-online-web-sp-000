@@ -24,11 +24,11 @@ class Triangle
     def invalid_triangle?
       sides.any? { |side| side <= 0 } || sides[0] + sides[1] <= sides[2]
     end
-  
+
 
   class TriangleError < StandardError
     def message
       "That's no triangle. Of that I'm sure."
     end
-  end
+  
 end

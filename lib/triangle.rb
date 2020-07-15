@@ -1,7 +1,7 @@
 class Triangle
 
   attr_reader :hypotenuse, :adjacent, :opposite, :sides
-  
+
     def initialize(hypotenuse, adjacent, opposite)
       @hypotenuse = hypotenuse
       @adjacent = adjacent
